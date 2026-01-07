@@ -18,3 +18,5 @@ else {
 
 
 
+//console.table({username, intructor, course, age});    
+console.table({username, instructor: intructor, course, age});
