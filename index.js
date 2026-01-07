@@ -1,11 +1,10 @@
 let username = 'Butera Marcel';
 
-let intructor = 'Gorret';
+let instructor = 'Gorret';
 
 let course = 'Javascript Debugging';
 
-console.log(`Hello ${username}, welcome to the ${course} course with ${intructor} as your instructor!`);
-
+console.log(`Hello ${username}, welcome to the ${course} course with ${instructor} as your instructor!`);
 //console.error('This is an error message for debugging purposes.');
 let age = 25;
 
@@ -19,4 +18,4 @@ else {
 
 
 //console.table({username, intructor, course, age});    
-console.table({username, instructor: intructor, course, age});
+console.table({username, instructor, course, age});
