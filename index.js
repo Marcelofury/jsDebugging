@@ -31,3 +31,7 @@ let students = [
     {name: 'Charlie', age: 23}
 ];
 console.table(students);
+
+// debugging with other console methods one by one with examples
+console.warn('This is a warning message for debugging purposes.');
+console.info('This is an informational message for debugging purposes.');
