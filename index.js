@@ -19,3 +19,15 @@ else {
 
 //console.table({username, intructor, course, age});    
 console.table({username, instructor, course, age});
+
+//another example of debugging eith console.table with arrays
+let fruits = ['Apple', 'Banana', 'Orange', 'Mango'];
+console.table(fruits);
+
+//another example of debugging eith console.table with arrays of objects
+let students = [
+    {name: 'Alice', age: 20},
+    {name: 'Bob', age: 22}, 
+    {name: 'Charlie', age: 23}
+];
+console.table(students);
